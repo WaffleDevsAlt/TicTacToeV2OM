@@ -1,0 +1,68 @@
+body {
+  margin-top: 70px;
+  width: calc(100vw/2);
+  height: calc(100vw/2);
+  border: solid 5px #fff;
+  position: center;
+  vertical-align: center;
+  background-color: black;
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  float: left;
+  width: calc(100vw/6);
+  height: calc((100vw)/6);
+  padding: 0;
+  max-width: 200px;
+  max-height: 200px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  margin: auto;
+  display: table;
+  color: white;
+  background-color: black;
+}
+
+.ttbutton2 {
+  font-size: min(calc(100vw/6), 190px);
+}
+
+#result {
+  font-family: 'Times', serif;
+  padding: 0;
+  position: absolute;
+  left: calc(50vw - 60px);
+  top: 20px;
+  width: 120px;
+}
+
+#reset {
+  position: absolute;
+  left: calc(100vw/2 - 25px);
+  top: calc(100vw/2 + 95px);
+  top: min(calc(100vw/2 + 105px), 705px);
+}
+.multiplayer {
+  position: relative;
+  top: min(calc(100vw/2 + 55px), 55px);
+}
+
+#code {
+  font-size: 10px;
+}
